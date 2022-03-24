@@ -2,6 +2,7 @@ import Botao from "../components/Botao";
 import Formulario from "../components/Formulario";
 import Layout from "../components/Layout";
 import Tabela from "../components/Tabela";
+
 import useClientes from "../hooks/useClientes";
 
 export default function Home() {
@@ -16,7 +17,6 @@ export default function Home() {
     tabelaVisivel,
     exibirTabela
   } = useClientes()
-
 
   return (
     <div className={`
